@@ -1,5 +1,5 @@
-## Ex. No: 5  VLAN Configuration Using a Managed Switch
-Date:
+## Ex. No: 4  VLAN Configuration Using a Managed Switch
+## Date: 06-09-2025
 ________________________________________
 # Objective
 To configure Virtual Local Area Networks (VLANs) on a managed switch and verify that hosts within the same VLAN can communicate while others cannot.
@@ -61,9 +61,18 @@ Switch(config-if-range)# exit<br>
 ________________________________________
 # Output (Screenshots)
 •	VLAN configuration on switch<br>
+<img width="1920" height="1080" alt="Screenshot 2025-09-06 140208" src="https://github.com/user-attachments/assets/87fb3e33-14d3-4cd6-8b6e-03a4f1e26bea" />
+
 •	PC IP settings<br>
+<img width="1920" height="1080" alt="Screenshot 2025-09-06 140127" src="https://github.com/user-attachments/assets/df2107e3-40f9-432a-8040-d4add5e0ebbf" />
+<img width="1920" height="1080" alt="Screenshot 2025-09-06 140144" src="https://github.com/user-attachments/assets/1d7cb660-f6fe-45b4-a3bb-8f9a58f068e4" />
+
 •	Successful ping between PCs in the same VLAN<br>
+<img width="1920" height="1080" alt="Screenshot 2025-09-06 141107" src="https://github.com/user-attachments/assets/7f832afd-658e-49d8-ba09-fc5ea34b0faa" />
+
 •	Failed ping between PCs in different VLANs<br>
+<img width="1920" height="1080" alt="Screenshot 2025-09-06 141222" src="https://github.com/user-attachments/assets/53505d57-a933-4906-9c9f-bdc9b497d256" />
+
 ________________________________________
 # Result
 Successfully created and configured VLANs on a managed switch. Verified that only PCs within the same VLAN could communicate with each other.
